@@ -15,31 +15,32 @@ int main()
     return 0;
 }
 
+//returns the smallest number, which is aliquot by a...b 
 int kleinsterTeiler(int const& a, int const& b){
 
     int ergebnis;
-    int j = b-1;
+    int j = 0;
+    int i = 1;
     bool end = false;
-    int zaehler=b;
 
     //Logic
     while(!end){
 
-        j = j+20;
-        for (int i = 1; i <= b; i++)
+        j = j+b;
+        i = 0;
+        while(i < b)
         {
+            i++;
             if (j % i != 0)
             {
-                zaehler--;
+                break;
             }
-            
         }
 
-        if (zaehler == b)
+        if (i == b)
         {
             end = true;
         }
-        zaehler = b;
     }
 
     ergebnis = j;
