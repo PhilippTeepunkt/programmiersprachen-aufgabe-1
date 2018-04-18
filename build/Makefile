@@ -111,43 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named aufgabe1_13
+# Target rules for targets named aufgaben8-15
 
 # Build rule for target.
-aufgabe1_13: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 aufgabe1_13
-.PHONY : aufgabe1_13
+aufgaben8-15: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgaben8-15
+.PHONY : aufgaben8-15
 
 # fast build rule for target.
-aufgabe1_13/fast:
-	$(MAKE) -f source/CMakeFiles/aufgabe1_13.dir/build.make source/CMakeFiles/aufgabe1_13.dir/build
-.PHONY : aufgabe1_13/fast
-
-#=============================================================================
-# Target rules for targets named aufgabe1_12
-
-# Build rule for target.
-aufgabe1_12: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 aufgabe1_12
-.PHONY : aufgabe1_12
-
-# fast build rule for target.
-aufgabe1_12/fast:
-	$(MAKE) -f source/CMakeFiles/aufgabe1_12.dir/build.make source/CMakeFiles/aufgabe1_12.dir/build
-.PHONY : aufgabe1_12/fast
-
-#=============================================================================
-# Target rules for targets named aufgabe1_11
-
-# Build rule for target.
-aufgabe1_11: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 aufgabe1_11
-.PHONY : aufgabe1_11
-
-# fast build rule for target.
-aufgabe1_11/fast:
-	$(MAKE) -f source/CMakeFiles/aufgabe1_11.dir/build.make source/CMakeFiles/aufgabe1_11.dir/build
-.PHONY : aufgabe1_11/fast
+aufgaben8-15/fast:
+	$(MAKE) -f source/CMakeFiles/aufgaben8-15.dir/build.make source/CMakeFiles/aufgaben8-15.dir/build
+.PHONY : aufgaben8-15/fast
 
 #=============================================================================
 # Target rules for targets named aufgabe1_3
@@ -162,45 +136,6 @@ aufgabe1_3/fast:
 	$(MAKE) -f source/CMakeFiles/aufgabe1_3.dir/build.make source/CMakeFiles/aufgabe1_3.dir/build
 .PHONY : aufgabe1_3/fast
 
-#=============================================================================
-# Target rules for targets named aufgabe1_9
-
-# Build rule for target.
-aufgabe1_9: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 aufgabe1_9
-.PHONY : aufgabe1_9
-
-# fast build rule for target.
-aufgabe1_9/fast:
-	$(MAKE) -f source/CMakeFiles/aufgabe1_9.dir/build.make source/CMakeFiles/aufgabe1_9.dir/build
-.PHONY : aufgabe1_9/fast
-
-#=============================================================================
-# Target rules for targets named aufgabe1_8
-
-# Build rule for target.
-aufgabe1_8: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 aufgabe1_8
-.PHONY : aufgabe1_8
-
-# fast build rule for target.
-aufgabe1_8/fast:
-	$(MAKE) -f source/CMakeFiles/aufgabe1_8.dir/build.make source/CMakeFiles/aufgabe1_8.dir/build
-.PHONY : aufgabe1_8/fast
-
-#=============================================================================
-# Target rules for targets named aufgabe1_10
-
-# Build rule for target.
-aufgabe1_10: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 aufgabe1_10
-.PHONY : aufgabe1_10
-
-# fast build rule for target.
-aufgabe1_10/fast:
-	$(MAKE) -f source/CMakeFiles/aufgabe1_10.dir/build.make source/CMakeFiles/aufgabe1_10.dir/build
-.PHONY : aufgabe1_10/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -209,13 +144,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... aufgabe1_13"
-	@echo "... aufgabe1_12"
-	@echo "... aufgabe1_11"
+	@echo "... aufgaben8-15"
 	@echo "... aufgabe1_3"
-	@echo "... aufgabe1_9"
-	@echo "... aufgabe1_8"
-	@echo "... aufgabe1_10"
 .PHONY : help
 
 

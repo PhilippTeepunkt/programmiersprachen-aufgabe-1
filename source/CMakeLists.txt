@@ -1,7 +1,2 @@
 add_executable(aufgabe1_3 Aufgabe1_3.cpp)
-add_executable(aufgabe1_8 Aufgabe1_8.cpp)
-add_executable(aufgabe1_9 Aufgabe1_9.cpp)
-add_executable(aufgabe1_10 Aufgabe1_10.cpp)
-add_executable(aufgabe1_11 Aufgabe1_11.cpp)
-add_executable(aufgabe1_12 Aufgabe1_12.cpp)
-add_executable(aufgabe1_13 Aufgabe1_13.cpp)
+add_executable(aufgaben8-15 Aufgaben8-15.cpp)
