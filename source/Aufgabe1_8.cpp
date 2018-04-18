@@ -6,7 +6,7 @@ int _ergebnis = 0;
 int _rest = 0;
 int _temp = 0;
 
-int gcd(int a, int b)
+int gcd(int const& a, int const& b)
 {
     if(a>b){
         _ergebnis = b;
