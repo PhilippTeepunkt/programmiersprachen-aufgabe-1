@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+source/CMakeFiles/aufgabe1_11.dir/rule:
+	cd /home/philipp/Dokumente/Fs2/Programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe1_11.dir/rule
+.PHONY : source/CMakeFiles/aufgabe1_11.dir/rule
+
+# Convenience name for target.
+aufgabe1_11: source/CMakeFiles/aufgabe1_11.dir/rule
+
+.PHONY : aufgabe1_11
+
+# fast build rule for target.
+aufgabe1_11/fast:
+	cd /home/philipp/Dokumente/Fs2/Programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe1_11.dir/build.make source/CMakeFiles/aufgabe1_11.dir/build
+.PHONY : aufgabe1_11/fast
+
+# Convenience name for target.
 source/CMakeFiles/aufgabe1_3.dir/rule:
 	cd /home/philipp/Dokumente/Fs2/Programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe1_3.dir/rule
 .PHONY : source/CMakeFiles/aufgabe1_3.dir/rule
@@ -196,6 +211,33 @@ Aufgabe1_10.s: Aufgabe1_10.cpp.s
 Aufgabe1_10.cpp.s:
 	cd /home/philipp/Dokumente/Fs2/Programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe1_10.dir/build.make source/CMakeFiles/aufgabe1_10.dir/Aufgabe1_10.cpp.s
 .PHONY : Aufgabe1_10.cpp.s
+
+Aufgabe1_11.o: Aufgabe1_11.cpp.o
+
+.PHONY : Aufgabe1_11.o
+
+# target to build an object file
+Aufgabe1_11.cpp.o:
+	cd /home/philipp/Dokumente/Fs2/Programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe1_11.dir/build.make source/CMakeFiles/aufgabe1_11.dir/Aufgabe1_11.cpp.o
+.PHONY : Aufgabe1_11.cpp.o
+
+Aufgabe1_11.i: Aufgabe1_11.cpp.i
+
+.PHONY : Aufgabe1_11.i
+
+# target to preprocess a source file
+Aufgabe1_11.cpp.i:
+	cd /home/philipp/Dokumente/Fs2/Programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe1_11.dir/build.make source/CMakeFiles/aufgabe1_11.dir/Aufgabe1_11.cpp.i
+.PHONY : Aufgabe1_11.cpp.i
+
+Aufgabe1_11.s: Aufgabe1_11.cpp.s
+
+.PHONY : Aufgabe1_11.s
+
+# target to generate assembly for a file
+Aufgabe1_11.cpp.s:
+	cd /home/philipp/Dokumente/Fs2/Programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe1_11.dir/build.make source/CMakeFiles/aufgabe1_11.dir/Aufgabe1_11.cpp.s
+.PHONY : Aufgabe1_11.cpp.s
 
 Aufgabe1_3.o: Aufgabe1_3.cpp.o
 
@@ -286,6 +328,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... aufgabe1_11"
 	@echo "... aufgabe1_3"
 	@echo "... aufgabe1_9"
 	@echo "... aufgabe1_8"
@@ -293,6 +336,9 @@ help:
 	@echo "... Aufgabe1_10.o"
 	@echo "... Aufgabe1_10.i"
 	@echo "... Aufgabe1_10.s"
+	@echo "... Aufgabe1_11.o"
+	@echo "... Aufgabe1_11.i"
+	@echo "... Aufgabe1_11.s"
 	@echo "... Aufgabe1_3.o"
 	@echo "... Aufgabe1_3.i"
 	@echo "... Aufgabe1_3.s"
