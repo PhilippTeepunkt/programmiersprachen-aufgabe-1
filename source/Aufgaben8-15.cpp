@@ -150,3 +150,25 @@ TEST_CASE ("describe_binomial","[binomial]")
 }
 
 //Aufgabe 1_15
+
+bool is_prime(int const& x){
+
+    if(x<=2){
+        return (x == 2);
+    }
+    for(long i = 2; i<x; i++)
+    {
+        if(x % i == 0){
+            return false;
+        }
+    }
+    return true;
+}
+
+TEST_CASE ("describe_is_prime","[is_prime]")
+{
+    REQUIRE(is_prime(5));
+    REQUIRE(!is_prime(15));
+    REQUIRE(!is_prime(561));
+}
+
