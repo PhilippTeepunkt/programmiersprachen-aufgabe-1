@@ -111,21 +111,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-source/CMakeFiles/aufgaben8-15.dir/rule:
-	cd /home/philipp/Dokumente/Fs2/Programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgaben8-15.dir/rule
-.PHONY : source/CMakeFiles/aufgaben8-15.dir/rule
-
-# Convenience name for target.
-aufgaben8-15: source/CMakeFiles/aufgaben8-15.dir/rule
-
-.PHONY : aufgaben8-15
-
-# fast build rule for target.
-aufgaben8-15/fast:
-	cd /home/philipp/Dokumente/Fs2/Programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgaben8-15.dir/build.make source/CMakeFiles/aufgaben8-15.dir/build
-.PHONY : aufgaben8-15/fast
-
-# Convenience name for target.
 source/CMakeFiles/aufgabe1_3.dir/rule:
 	cd /home/philipp/Dokumente/Fs2/Programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe1_3.dir/rule
 .PHONY : source/CMakeFiles/aufgabe1_3.dir/rule
@@ -139,6 +124,36 @@ aufgabe1_3: source/CMakeFiles/aufgabe1_3.dir/rule
 aufgabe1_3/fast:
 	cd /home/philipp/Dokumente/Fs2/Programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe1_3.dir/build.make source/CMakeFiles/aufgabe1_3.dir/build
 .PHONY : aufgabe1_3/fast
+
+# Convenience name for target.
+source/CMakeFiles/aufgaben8-16.dir/rule:
+	cd /home/philipp/Dokumente/Fs2/Programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgaben8-16.dir/rule
+.PHONY : source/CMakeFiles/aufgaben8-16.dir/rule
+
+# Convenience name for target.
+aufgaben8-16: source/CMakeFiles/aufgaben8-16.dir/rule
+
+.PHONY : aufgaben8-16
+
+# fast build rule for target.
+aufgaben8-16/fast:
+	cd /home/philipp/Dokumente/Fs2/Programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgaben8-16.dir/build.make source/CMakeFiles/aufgaben8-16.dir/build
+.PHONY : aufgaben8-16/fast
+
+# Convenience name for target.
+source/CMakeFiles/mileToKilometer.dir/rule:
+	cd /home/philipp/Dokumente/Fs2/Programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/mileToKilometer.dir/rule
+.PHONY : source/CMakeFiles/mileToKilometer.dir/rule
+
+# Convenience name for target.
+mileToKilometer: source/CMakeFiles/mileToKilometer.dir/rule
+
+.PHONY : mileToKilometer
+
+# fast build rule for target.
+mileToKilometer/fast:
+	cd /home/philipp/Dokumente/Fs2/Programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/mileToKilometer.dir/build.make source/CMakeFiles/mileToKilometer.dir/build
+.PHONY : mileToKilometer/fast
 
 Aufgabe1_3.o: Aufgabe1_3.cpp.o
 
@@ -167,32 +182,59 @@ Aufgabe1_3.cpp.s:
 	cd /home/philipp/Dokumente/Fs2/Programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe1_3.dir/build.make source/CMakeFiles/aufgabe1_3.dir/Aufgabe1_3.cpp.s
 .PHONY : Aufgabe1_3.cpp.s
 
-Aufgaben8-15.o: Aufgaben8-15.cpp.o
+Aufgaben8-16.o: Aufgaben8-16.cpp.o
 
-.PHONY : Aufgaben8-15.o
+.PHONY : Aufgaben8-16.o
 
 # target to build an object file
-Aufgaben8-15.cpp.o:
-	cd /home/philipp/Dokumente/Fs2/Programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgaben8-15.dir/build.make source/CMakeFiles/aufgaben8-15.dir/Aufgaben8-15.cpp.o
-.PHONY : Aufgaben8-15.cpp.o
+Aufgaben8-16.cpp.o:
+	cd /home/philipp/Dokumente/Fs2/Programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgaben8-16.dir/build.make source/CMakeFiles/aufgaben8-16.dir/Aufgaben8-16.cpp.o
+.PHONY : Aufgaben8-16.cpp.o
 
-Aufgaben8-15.i: Aufgaben8-15.cpp.i
+Aufgaben8-16.i: Aufgaben8-16.cpp.i
 
-.PHONY : Aufgaben8-15.i
+.PHONY : Aufgaben8-16.i
 
 # target to preprocess a source file
-Aufgaben8-15.cpp.i:
-	cd /home/philipp/Dokumente/Fs2/Programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgaben8-15.dir/build.make source/CMakeFiles/aufgaben8-15.dir/Aufgaben8-15.cpp.i
-.PHONY : Aufgaben8-15.cpp.i
+Aufgaben8-16.cpp.i:
+	cd /home/philipp/Dokumente/Fs2/Programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgaben8-16.dir/build.make source/CMakeFiles/aufgaben8-16.dir/Aufgaben8-16.cpp.i
+.PHONY : Aufgaben8-16.cpp.i
 
-Aufgaben8-15.s: Aufgaben8-15.cpp.s
+Aufgaben8-16.s: Aufgaben8-16.cpp.s
 
-.PHONY : Aufgaben8-15.s
+.PHONY : Aufgaben8-16.s
 
 # target to generate assembly for a file
-Aufgaben8-15.cpp.s:
-	cd /home/philipp/Dokumente/Fs2/Programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgaben8-15.dir/build.make source/CMakeFiles/aufgaben8-15.dir/Aufgaben8-15.cpp.s
-.PHONY : Aufgaben8-15.cpp.s
+Aufgaben8-16.cpp.s:
+	cd /home/philipp/Dokumente/Fs2/Programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgaben8-16.dir/build.make source/CMakeFiles/aufgaben8-16.dir/Aufgaben8-16.cpp.s
+.PHONY : Aufgaben8-16.cpp.s
+
+mileToKilometer.o: mileToKilometer.cpp.o
+
+.PHONY : mileToKilometer.o
+
+# target to build an object file
+mileToKilometer.cpp.o:
+	cd /home/philipp/Dokumente/Fs2/Programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/mileToKilometer.dir/build.make source/CMakeFiles/mileToKilometer.dir/mileToKilometer.cpp.o
+.PHONY : mileToKilometer.cpp.o
+
+mileToKilometer.i: mileToKilometer.cpp.i
+
+.PHONY : mileToKilometer.i
+
+# target to preprocess a source file
+mileToKilometer.cpp.i:
+	cd /home/philipp/Dokumente/Fs2/Programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/mileToKilometer.dir/build.make source/CMakeFiles/mileToKilometer.dir/mileToKilometer.cpp.i
+.PHONY : mileToKilometer.cpp.i
+
+mileToKilometer.s: mileToKilometer.cpp.s
+
+.PHONY : mileToKilometer.s
+
+# target to generate assembly for a file
+mileToKilometer.cpp.s:
+	cd /home/philipp/Dokumente/Fs2/Programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/mileToKilometer.dir/build.make source/CMakeFiles/mileToKilometer.dir/mileToKilometer.cpp.s
+.PHONY : mileToKilometer.cpp.s
 
 # Help Target
 help:
@@ -201,15 +243,19 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... aufgaben8-15"
-	@echo "... rebuild_cache"
 	@echo "... aufgabe1_3"
+	@echo "... rebuild_cache"
+	@echo "... aufgaben8-16"
+	@echo "... mileToKilometer"
 	@echo "... Aufgabe1_3.o"
 	@echo "... Aufgabe1_3.i"
 	@echo "... Aufgabe1_3.s"
-	@echo "... Aufgaben8-15.o"
-	@echo "... Aufgaben8-15.i"
-	@echo "... Aufgaben8-15.s"
+	@echo "... Aufgaben8-16.o"
+	@echo "... Aufgaben8-16.i"
+	@echo "... Aufgaben8-16.s"
+	@echo "... mileToKilometer.o"
+	@echo "... mileToKilometer.i"
+	@echo "... mileToKilometer.s"
 .PHONY : help
 
 

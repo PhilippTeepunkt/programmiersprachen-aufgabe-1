@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named aufgaben8-15
-
-# Build rule for target.
-aufgaben8-15: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 aufgaben8-15
-.PHONY : aufgaben8-15
-
-# fast build rule for target.
-aufgaben8-15/fast:
-	$(MAKE) -f source/CMakeFiles/aufgaben8-15.dir/build.make source/CMakeFiles/aufgaben8-15.dir/build
-.PHONY : aufgaben8-15/fast
-
-#=============================================================================
 # Target rules for targets named aufgabe1_3
 
 # Build rule for target.
@@ -136,6 +123,32 @@ aufgabe1_3/fast:
 	$(MAKE) -f source/CMakeFiles/aufgabe1_3.dir/build.make source/CMakeFiles/aufgabe1_3.dir/build
 .PHONY : aufgabe1_3/fast
 
+#=============================================================================
+# Target rules for targets named aufgaben8-16
+
+# Build rule for target.
+aufgaben8-16: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgaben8-16
+.PHONY : aufgaben8-16
+
+# fast build rule for target.
+aufgaben8-16/fast:
+	$(MAKE) -f source/CMakeFiles/aufgaben8-16.dir/build.make source/CMakeFiles/aufgaben8-16.dir/build
+.PHONY : aufgaben8-16/fast
+
+#=============================================================================
+# Target rules for targets named mileToKilometer
+
+# Build rule for target.
+mileToKilometer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mileToKilometer
+.PHONY : mileToKilometer
+
+# fast build rule for target.
+mileToKilometer/fast:
+	$(MAKE) -f source/CMakeFiles/mileToKilometer.dir/build.make source/CMakeFiles/mileToKilometer.dir/build
+.PHONY : mileToKilometer/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -144,8 +157,9 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... aufgaben8-15"
 	@echo "... aufgabe1_3"
+	@echo "... aufgaben8-16"
+	@echo "... mileToKilometer"
 .PHONY : help
 
 

@@ -1,15 +1,11 @@
 #define CATCH_CONFIG_RUNNER
 #include "catch.hpp"
 #include <cmath>
+#include <string>
 
 int _ergebnis = 0;
 int _rest = 0;
 int _temp = 0;
-
-int main(int argc, char* argv[])
-{
-    return Catch::Session().run(argc, argv);
-}
 
 //Aufgabe 1_8
 int gcd(int const& a, int const& b)
@@ -171,4 +167,11 @@ TEST_CASE ("describe_is_prime","[is_prime]")
     REQUIRE(!is_prime(15));
     REQUIRE(!is_prime(561));
 }
+
+int main(int argc, char* argv[])
+{
+    return Catch::Session().run(argc, argv);
+}
+
+
 
